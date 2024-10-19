@@ -1,0 +1,24 @@
+body{
+    background-color: bisque;
+}
+
+
+h1{
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.images {
+    display: flex;                /* Use flexbox layout */
+    justify-content: center;      /* Center images horizontally */
+    align-items: center;          /* Center images vertically if height is specified */
+    gap: 150px;                    /* Add space between images */
+    flex-wrap: nowrap;            /* Keep images on a single line */
+    border: solid;
+}
+
+.links{
+    text-shadow: blueviolet;
+    border: chocolate;
+}
